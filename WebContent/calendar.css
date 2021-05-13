@@ -1,0 +1,158 @@
+table {
+	/* border-xxx: 선두께 선종류 선색상; */
+	border: 3px solid tomato;
+	border-radius: 10px;
+}
+
+tr {
+	height: 80px;
+	border: 0px solid;
+}
+
+th {
+	border: 0px solid;
+}
+
+td {
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+th#title {
+	font-size: 30pt;
+	color: YellowGreen;
+	font-weight: bold;
+	font-family: D2Coding;
+}
+
+/* . => class, # => id */
+td#sunday {
+	font-size: 20pt;
+	font-weight: bold;
+	width: 100px;
+	text-align: center;
+	color: red;
+}
+td#saturday {
+	font-size: 20pt;
+	font-weight: bold;
+	width: 100px;
+	text-align: center;
+	color: blue;
+}
+td.etcday {
+	font-size: 20pt;
+	font-weight: bold;
+	width: 100px;
+	text-align: center;
+	color: black;
+}
+
+td.sun {
+	color: red;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: top;
+	font-size: 12pt;
+}
+td.sat {
+	color: blue;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: top;
+	font-size: 12pt;
+}
+td.etc {
+	color: black;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: top;
+	font-size: 12pt;
+}
+
+td.beforesun {
+	color: red;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: top;
+	font-size: 10pt;
+	background: lightgray;
+}
+td.before {
+	color: black;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: top;
+	font-size: 10pt;
+	background: lightgray;
+}
+
+td.aftersat {
+	color: blue;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: top;
+	font-size: 10pt;
+	background: lightgray;
+}
+td.after {
+	color: black;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: top;
+	font-size: 10pt;
+	background: lightgray;
+}
+
+td.holiday {
+	color: red;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: top;
+	font-size: 12pt;
+	background: yellow;
+}
+
+span {
+	font-size: 9pt;
+}
+
+.select {
+	width: 100px;
+	height: 30px;
+}
+
+/* 하이퍼 링크 스타일 지정하기 */
+/* 
+a {
+	color: black;
+	text-decoration: none;
+}
+*/
+a:link { /* 한 번도 클릭하지 않은 하이퍼 링크 */
+	color: black;
+	text-decoration: none;
+}
+a:visited { /* 한 번 이상 클릭한 하이퍼 링크 */
+	color: black;
+	text-decoration: none;
+}
+a:hover { /* 마우스를 올리고 있을 때 */
+	text-decoration: underline;
+}
+a:active { /* 마우스로 누르고 있을 때 */
+	color: skyblue;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
